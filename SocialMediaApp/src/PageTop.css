@@ -1,0 +1,117 @@
+#TopContainer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(8, 8, 13);
+    margin: auto;
+    max-height: 58px;
+    border-bottom: 1px solid rgb(0, 0, 253);
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+#HomeAndSearchBarContainer, #ContentButtonsContainer, #MenuAndNotificationButtonsContainer{
+    display: flex;
+    flex-direction: row;
+    height: 58px;
+
+}
+
+img{
+    display: inline-block;
+    padding-bottom: 0%;
+    margin: auto;
+    max-height: 58px;
+}
+
+
+
+#TopSectionContainer1, #TopSectionContainer3{
+    display: flex;
+    /**background-color: aqua;**/
+    width: 30%;
+}
+
+#TopSectionContainer2{
+    display: flex;
+    width: 40%;
+    /**background-color: brown;**/
+    justify-content: space-around;
+}
+
+#TopSectionContainer1{
+    padding-right: 20px;   
+}
+
+#TopSectionContainer3{
+    justify-content: end;
+}
+
+#ContentButtonsContainer{
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+#MainContentButton img,#VideoContentButton img,#ShoppingContentButton img,#GamingContentButton img{
+    max-height: 40px;
+    margin: auto;
+}
+
+#MainContentButton,#VideoContentButton,#ShoppingContentButton,#GamingContentButton {
+    display: flex;
+    margin: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    /**border-bottom: 4px solid aqua;**/
+    height: 100%;
+    cursor: pointer;
+}
+
+#TopSectionContainer3 img{
+    border-radius: 50%;
+    overflow: hidden;
+    max-height: 37px;
+    cursor: pointer;
+
+}
+
+#MenuAndNotificationButtonsContainer{
+    align-items: center;
+    gap: 12px;
+    padding-right: 15px;
+}
+
+#HomeButton{
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40px;
+}
+
+#HomeButtonContainer{
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+#SearchbarStuff{
+    display: flex;
+}
+
+#SearchbarStuff input{
+    font-size: 15px;
+    border-radius: 20px;
+    margin: auto;
+    height: 70%;
+    width: 240px;
+    padding-left: 35px;
+    border: 1px solid rgb(32, 32, 37);
+    background-color: rgb(32, 32, 37);
+    background-image: url('src/photos/searchImage.png');
+    background-position: 6px center;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+}
