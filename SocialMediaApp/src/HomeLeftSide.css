@@ -1,3 +1,9 @@
+#MainContainer{
+    position: fixed;
+    left: 0; 
+    width: 300px; 
+}
+
 .ButtonStyles {
     background-color: rgb(32, 32, 37);
     color: aliceblue;

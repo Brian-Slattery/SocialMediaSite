@@ -3,13 +3,12 @@
 }
 
 #LeftHandContainer{
-    width: 300px;
     height: 100%;
 }
 
-    #RightHandContainer{
-        width: 300px;
-    }
+#RightHandContainer{
+    width: 300px;
+}
 
 #MiddleContentContainer{
     width: 40%;

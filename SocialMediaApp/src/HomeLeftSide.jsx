@@ -113,7 +113,7 @@ function HomeLeftBar(){
                                 <img src="src/photos/Logo.png" alt="" />
                             </div>
                             <div className='ButtonWords'>
-                                <p>AdsManager</p>
+                                <p>Ads Manager</p>
                             </div>
                         </div>
                     </div>
@@ -231,9 +231,7 @@ function HomeLeftBar(){
             </div>
 
         </div>
-
-
-
+        
     )
     
 }

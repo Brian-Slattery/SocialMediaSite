@@ -26,18 +26,14 @@ img{
     max-height: 58px;
 }
 
-
-
 #TopSectionContainer1, #TopSectionContainer3{
     display: flex;
-    /**background-color: aqua;**/
-    width: 30%;
+    width: 32%;
 }
 
 #TopSectionContainer2{
     display: flex;
-    width: 40%;
-    /**background-color: brown;**/
+    width: 36%;
     justify-content: space-around;
 }
 
@@ -50,28 +46,31 @@ img{
 }
 
 #ContentButtonsContainer{
-    justify-content: space-between;
-    align-items: center;
+    display: flex;
     gap: 10px;
+    width: 100%;
+    align-items: center;
 }
 
 #MainContentButton img,#VideoContentButton img,#ShoppingContentButton img,#GamingContentButton img{
     max-height: 40px;
     margin: auto;
+    display: inline-block;
 }
 
 .ButtonBorder{
     display: flex;
     height: 100%;
+    width: 25%;
+    box-sizing: border-box;
     /**border-bottom: 4px solid aqua;**/
 }
 
 #MainContentButton,#VideoContentButton,#ShoppingContentButton,#GamingContentButton {
     display: flex;
     margin: auto;
-    padding-left: 35px;
-    padding-right: 35px;
-    border-radius: 15px;
+    width: 100%;
+    border-radius: 5px;
     height: 80%;
     cursor: pointer;
 }
