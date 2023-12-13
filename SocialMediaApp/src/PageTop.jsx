@@ -22,17 +22,25 @@ function PageTop() {
 
                 <div id='TopSectionContainer2'>
                     <div id='ContentButtonsContainer'>
-                        <div id='MainContentButton'>
-                            <img src="src/photos/Home.png" alt="" />
+                        <div className='ButtonBorder'>
+                            <div id='MainContentButton'>
+                                <img src="src/photos/Home.png" alt="" />
+                            </div>
                         </div>
-                        <div id='VideoContentButton'>
-                            <img src="src/photos/VideoIcon.png" alt="" />
+                        <div className='ButtonBorder'>
+                            <div id='VideoContentButton'>
+                                <img src="src/photos/VideoIcon.png" alt="" />
+                            </div>
                         </div>
-                        <div id='ShoppingContentButton'>
-                            <img src="src/photos/ShopIcon.png" alt="" />
+                        <div className='ButtonBorder'>
+                            <div id='ShoppingContentButton'>
+                                <img src="src/photos/ShopIcon.png" alt="" />
+                            </div>
                         </div>
-                        <div id='GamingContentButton'>
-                            <img src="src/photos/GamesIcon.png" alt="" />
+                        <div className='ButtonBorder'>
+                            <div id='GamingContentButton'>
+                                <img src="src/photos/GamesIcon.png" alt="" />
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -60,14 +60,24 @@ img{
     margin: auto;
 }
 
+.ButtonBorder{
+    display: flex;
+    height: 100%;
+    /**border-bottom: 4px solid aqua;**/
+}
+
 #MainContentButton,#VideoContentButton,#ShoppingContentButton,#GamingContentButton {
     display: flex;
     margin: auto;
     padding-left: 35px;
     padding-right: 35px;
-    /**border-bottom: 4px solid aqua;**/
-    height: 100%;
+    border-radius: 15px;
+    height: 80%;
     cursor: pointer;
+}
+
+#MainContentButton:hover,#VideoContentButton:hover,#ShoppingContentButton:hover,#GamingContentButton:hover {
+    background-color: rgb(32, 32, 37);
 }
 
 #TopSectionContainer3 img{
@@ -102,6 +112,7 @@ img{
 }
 
 #SearchbarStuff input{
+    color: gray;
     font-size: 15px;
     border-radius: 20px;
     margin: auto;

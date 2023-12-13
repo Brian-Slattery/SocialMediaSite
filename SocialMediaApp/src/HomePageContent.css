@@ -1,0 +1,18 @@
+#pageContainer{
+    margin-top: 58px;
+}
+
+#LeftHandContainer{
+    width: 300px;
+    height: 100%;
+}
+
+    #RightHandContainer{
+        width: 300px;
+    }
+
+#MiddleContentContainer{
+    width: 40%;
+    background-color: brown;
+}
+
