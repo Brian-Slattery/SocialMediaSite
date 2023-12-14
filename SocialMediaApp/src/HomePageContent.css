@@ -4,16 +4,9 @@
     margin-top: 58px;
 }
 
-#LeftHandContainer{
-    height: 100%;
-}
-
-#RightHandContainer{
-
-}
-
 #MiddleContentContainer{
-    margin-left: 300px;
     background-color: brown;
+    width: 100%;
+    height: 4000px;
 }
 
