@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './HomePageContent.css'
 import HomeLeftBar from './HomeLeftSide';
+import HomeRightBar from './HomeRightSide';
 
 function HomePageContent(){
     return(
@@ -11,12 +12,11 @@ function HomePageContent(){
             </div>
 
             <div id='MiddleContentContainer'>
-                
-
+                <p>sfgrgg</p>
             </div>
 
             <div id='RighthandContainer'>
-                
+                <HomeRightBar/>
             </div>
 
         </div>
