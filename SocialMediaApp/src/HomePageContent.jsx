@@ -234,7 +234,58 @@ function HomePageContent(){
         </div>
 
             <div id='MiddleContentContainer'>
-                <p>sfgrgg</p>
+
+                <div id='TopVideosContainer'>
+
+                    <div id='CreateVideo'>
+                        <div id='emptyTopDiv'></div>
+                        <div id='CreateVideoPhoto'>
+                            <img src="src/photos/Logo.png" alt="" />
+                        </div>
+
+                        <div id='CreateVideoBottom'>
+                            <div id='EmptyBottomDiv'>
+
+                            </div>
+                            <div id='CreateVideoText'>
+                                <h3>Create vid</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div className='Video'>
+                        <div className='VideoProfilePhoto'>
+                            <img src="src/photos/Logo.png" alt="" />
+                        </div>
+                        <div className='VideoName'>
+                            <h3>Person Name</h3>
+                        </div>
+
+                    </div>
+
+                    <div className='Video'>
+                        <div className='VideoProfilePhoto'>
+                            <img src="src/photos/Logo.png" alt="" />
+                        </div>
+                        <div className='VideoName'>
+                            <h3>Person Name</h3>
+                        </div>
+
+                    </div>
+
+                    <div className='Video'>
+                        <div className='VideoProfilePhoto'>
+                            <img src="src/photos/Logo.png" alt="" />
+                        </div>
+                        <div className='VideoName'>
+                            <h3>Person Name</h3>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
             <div id='RighthandContainer'>
