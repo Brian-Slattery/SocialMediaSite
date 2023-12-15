@@ -286,6 +286,59 @@ function HomePageContent(){
 
                 </div>
 
+                <div id='PostsContainer'>
+
+                    <div id='NewPostContainer'>
+
+                        <div id='PostTextInputContainer'>
+                            <div id='PostProfilePic'>
+                                <img src="src/photos/Logo.png" alt="" />
+                            </div>
+                            <div id='PostTextField'>
+                                <p>What's Up My Guy?</p>
+                            </div>
+                        </div>
+
+                        <div id='PostButtons'>
+
+                            <div id='LiveButton'>
+                                <div id= 'LivePhoto'>
+                                    <img src="src/photos/BellLogo.png" alt="" />
+                                </div>
+                                <div id='LiveText'>
+                                    <p>Live Video</p>
+                                </div>
+                            </div>
+
+                            <div id='PhotoButton'>
+
+                            <div id= 'PhotoPostPhoto'>
+                                    <img src="src/photos/VideoIcon.png" alt="" />
+                                </div>
+                                <div id='PhotoPostText'>
+                                    <p>Photo/Video</p>
+                                </div>
+                            </div>
+                            
+                            <div id='FeelingButton'>
+                                <div id= 'FeelingsPhoto'>
+                                    <img src="src/photos/ShopIcon.png" alt="" />
+                                </div>
+                                <div id='FeelingsText'>
+                                    <p>Feelings/Activity</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div id='ImagePostContainer'>
+
+                    </div>
+
+                </div>
+
             </div>
 
             <div id='RighthandContainer'>

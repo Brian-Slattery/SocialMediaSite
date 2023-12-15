@@ -14,7 +14,7 @@
     padding-top: 20px;
     padding-bottom: 15px;
     display: flex;
-    width: 75%;
+    width: 600px;
     margin: auto;
 }
 
@@ -26,6 +26,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 #emptyTopDiv{
@@ -103,3 +104,99 @@
     margin-bottom: 7px;
     font-size: 15px;
 }
+
+/**Main Content**/
+
+#PostsContainer{
+    display: flex;
+    background-color: rgb(70, 70, 74);
+    width: 500px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/**New Post Stuff**/
+
+#NewPostContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: rgb(192, 187, 187);
+}
+
+#PostTextInputContainer{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#PostProfilePic img{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;    
+    border-radius: 50%;
+    vertical-align: middle;
+    
+}
+
+#PostTextField{
+    cursor: pointer;
+}
+
+
+#PostTextField p{ 
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    align-items: center;
+    background-color: rgb(103, 106, 111);
+    font-size: 16px;
+    border-radius: 20px;
+    height: 40px;
+    width: 425px;
+    padding-left: 15px;
+    border: 1px solid  rgb(103, 106, 111);}
+
+#PostButtons{
+    display: flex;
+    border-top: 1px solid rgb(152, 152, 152);
+    width: 470px;
+    height: 60px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+#LiveButton, #PhotoButton, #FeelingButton{
+    margin-top: 0px;
+    display: flex;
+    width: 33%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#LiveButton:hover, #PhotoButton:hover, #FeelingButton:hover{
+    background-color: brown;
+}
+
+
+#LiveButton img, #PhotoButton img, #FeelingButton img{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+}
+
+#FeelingsPhoto,#PhotoPostPhoto,#LivePhoto{
+    margin-right: 5px;
+}
+
+#FeelingsText,#PhotoPostText,#LiveText{
+    margin-right: 5px;
+}
+
+/**PhotoPost Stuff**/
